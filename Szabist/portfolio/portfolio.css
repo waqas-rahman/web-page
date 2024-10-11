@@ -1,0 +1,84 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    display: inline;
+    flex-basis: 100%;
+    flex-wrap: initial;
+    max-width: 900px;
+    height: auto;
+}
+
+
+
+
+.profile{
+    display: flex;
+    margin-bottom: 50px;
+    border-radius: 100;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.profile2{
+     display: flex;
+    text-transform: capitalize;
+    text-decoration: solid;
+    font-style: italic;
+    border-color: black;
+    text-align: center;
+    
+}
+
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px; 
+    padding: 10px 15px; 
+    box-shadow: wheat;
+    background-color: brown;
+    display:inline;
+    justify-content: space-between;
+    font-size: xx-large;
+
+}
+
+.projects{
+    flex-basis: 50%;
+    border: 2px solid;
+    background-color: blanchedalmond;
+    padding: 10px;
+    border-radius: 12px;
+    text-transform: capitalize;
+    text-align: justify;
+    
+    
+}
+.social{
+    text-align: right;
+    text-transform: capitalize;
+    text-decoration: solid;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display: bold;
+    color: rgb(190, 11, 11);
+
+}
+
+.links{
+        margin: 0 auto;
+        height: auto;
+        display: flex;
+        justify-content: right;
+        padding: 1px;
+        text-decoration: none;
+        
+      }
+
